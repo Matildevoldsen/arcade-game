@@ -33,22 +33,18 @@ class Player {
         if (keyCode == 38) {
             console.log('moved');
             this.y -= 80;
-            this.update();
         }
 
         if (keyCode == 40) {
             this.y += 80;
-            this.update();
         }
 
         if (keyCode == 37) {
             this.x -= 100;
-            this.update();
         }
 
         if (keyCode == 39) {
             this.x += 100;
-            this.update();
         }
     }
 
